@@ -45,8 +45,6 @@ class ViewController: UIViewController {
     
     @objc func datePickerValueChanged(sender: UIDatePicker) {
         let dateFormatter = DateFormatter()
-//        dateFormatter.dateStyle = .short
-//        dateFormatter.timeStyle = .none
         dateFormatter.dateFormat = "dd/MM/yyyy"
         dateInput.text = dateFormatter.string(from: sender.date)
         calculate(date: dateInput.text!)
