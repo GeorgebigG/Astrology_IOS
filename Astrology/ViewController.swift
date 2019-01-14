@@ -4,7 +4,6 @@
 //
 //  Created by George Nebieridze on 1/12/19.
 //  Copyright © 2019 George. All rights reserved.
-//
 
 import UIKit
 
